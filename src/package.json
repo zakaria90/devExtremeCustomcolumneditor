@@ -1,0 +1,20 @@
+{
+  "name": "Custom Editors - DevExtreme Data Grid",
+  "description": "Different editors can be used to edit cell values in grid columns. The default editor depends on the column configuration. The dependency is illustrated in the editorOptions object's description (this object is used to customize the default editor). In this demo, the SelectBox component is the Status column's default editor, and the editorOptions object is used to specify the component's itemTemplate.\nIf the default editor is unsuitable, replace it with a custom editor by specifying an editCellTemplate. In this template, configure the replacement editor's appearance and behavior. In this demo, the default editors in the Owner and Assignees columns are replaced with the DropDownBox and TagBox components.\n",
+  "dependencies": {
+    "rrule": "2.6.6",
+    "react-dom": "16.14.0",
+    "react": "16.14.0",
+    "prop-types": "15.7.2",
+    "preact": "10.5.13",
+    "luxon": "1.26.0",
+    "jszip": "3.6.0",
+    "es6-object-assign": "1.1.0",
+    "devextreme-react": "20.2.7",
+    "devextreme-quill": "0.10.3",
+    "devextreme-aspnet-data-nojquery": "2.7.1",
+    "devextreme": "20.2.7",
+    "devexpress-gantt": "2.0.29",
+    "devexpress-diagram": "2.0.23"
+  }
+}
